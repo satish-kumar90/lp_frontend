@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global font family */
+:root {
+  --app-font-family: "Saira", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+html, body, #root {
+  font-family: var(--app-font-family);
+}
+
+/* Override Tailwind's lime-400 text color globally */
+.text-lime-400 {
+  color: rgba(105, 244, 66, 1) !important;
+}

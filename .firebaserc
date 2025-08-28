@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "grok-digital-4"
+  },
+  "targets": {
+    "grok-digital-4": {
+      "hosting": {
+        "gd-lpdr": [
+          "gd-lpdr"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
